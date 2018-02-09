@@ -25,7 +25,7 @@ s.source_files = "CRConfirmOrder/CRConfirmOrder/**/*.{h,m}"
 
 s.framework = "UIKit"
 
-s.dependency "CRConfirmOrderServiceProtocol", :git => 'https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git'
-s.dependency "CRProtocolManager", :git => 'https://github.com/xiaoshangWow/CRProtocolManager.git'
+s.dependency "CRConfirmOrderServiceProtocol"
+s.dependency "CRProtocolManager"
 
 end
