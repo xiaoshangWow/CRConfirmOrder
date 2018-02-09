@@ -1,0 +1,29 @@
+PODS:
+  - CRConfirmOrderServiceProtocol (0.0.1)
+  - CRProtocolManager (0.0.1)
+
+DEPENDENCIES:
+  - CRConfirmOrderServiceProtocol (from `https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git`)
+  - CRProtocolManager (from `https://github.com/xiaoshangWow/CRProtocolManager.git`)
+
+EXTERNAL SOURCES:
+  CRConfirmOrderServiceProtocol:
+    :git: https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git
+  CRProtocolManager:
+    :git: https://github.com/xiaoshangWow/CRProtocolManager.git
+
+CHECKOUT OPTIONS:
+  CRConfirmOrderServiceProtocol:
+    :commit: e11e6f8619731290529dfb699c20e97a6a76b75f
+    :git: https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git
+  CRProtocolManager:
+    :commit: 95ebb37ec494505b1e98f8657c9ef90d073ff3ba
+    :git: https://github.com/xiaoshangWow/CRProtocolManager.git
+
+SPEC CHECKSUMS:
+  CRConfirmOrderServiceProtocol: eb10346d998eefab277c7209a8fa4b24d8f7309f
+  CRProtocolManager: 0eb18c611db9e91bc08bdefe58c5b9b9e7e2c4cb
+
+PODFILE CHECKSUM: 06ec2d3c8ab95770190e26b591408a27138a3d4f
+
+COCOAPODS: 1.4.0

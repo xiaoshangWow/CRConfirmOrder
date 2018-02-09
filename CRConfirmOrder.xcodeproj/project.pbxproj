@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E830FB2FC89CFDDDD1FE76 /* libPods-CRConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 324049E658E2629CFD9BA596 /* libPods-CRConfirmOrder.a */; };
 		3BB86B42202D4B8100132467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B41202D4B8100132467 /* AppDelegate.m */; };
 		3BB86B45202D4B8100132467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B44202D4B8100132467 /* ViewController.m */; };
 		3BB86B48202D4B8100132467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB86B46202D4B8100132467 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		3BB86B50202D4B8100132467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B4F202D4B8100132467 /* main.m */; };
 		3BB86B5A202D4B8100132467 /* CRConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B59202D4B8100132467 /* CRConfirmOrderTests.m */; };
 		3BB86B65202D4B8100132467 /* CRConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B64202D4B8100132467 /* CRConfirmOrderUITests.m */; };
+		3BB86B77202D4C1300132467 /* CRConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B73202D4C1300132467 /* CRConfirmOrderViewController.m */; };
+		3BB86B78202D4C1300132467 /* CRConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86B74202D4C1300132467 /* CRConfirmOrderServiceProvide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		324049E658E2629CFD9BA596 /* libPods-CRConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86B3D202D4B8100132467 /* CRConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86B40202D4B8100132467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB86B41202D4B8100132467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		3BB86B60202D4B8100132467 /* CRConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86B64202D4B8100132467 /* CRConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderUITests.m; sourceTree = "<group>"; };
 		3BB86B66202D4B8100132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB86B73202D4C1300132467 /* CRConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderViewController.m; sourceTree = "<group>"; };
+		3BB86B74202D4C1300132467 /* CRConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
+		3BB86B75202D4C1300132467 /* CRConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderViewController.h; sourceTree = "<group>"; };
+		3BB86B76202D4C1300132467 /* CRConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		55244C92DC510229CB225A50 /* Pods-CRConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1147544384D6C97561806A /* Pods-CRConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E830FB2FC89CFDDDD1FE76 /* libPods-CRConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36C261DE70B311AA750302E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324049E658E2629CFD9BA596 /* libPods-CRConfirmOrder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BB86B34202D4B8100132467 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				3BB86B58202D4B8100132467 /* CRConfirmOrderTests */,
 				3BB86B63202D4B8100132467 /* CRConfirmOrderUITests */,
 				3BB86B3E202D4B8100132467 /* Products */,
+				A757492B455BB2E6523D234A /* Pods */,
+				36C261DE70B311AA750302E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 		3BB86B3F202D4B8100132467 /* CRConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				3BB86B72202D4B8A00132467 /* CRConfirmOrder */,
 				3BB86B40202D4B8100132467 /* AppDelegate.h */,
 				3BB86B41202D4B8100132467 /* AppDelegate.m */,
 				3BB86B43202D4B8100132467 /* ViewController.h */,
@@ -132,6 +154,26 @@
 			path = CRConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
+		3BB86B72202D4B8A00132467 /* CRConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86B76202D4C1300132467 /* CRConfirmOrderServiceProvide.h */,
+				3BB86B74202D4C1300132467 /* CRConfirmOrderServiceProvide.m */,
+				3BB86B75202D4C1300132467 /* CRConfirmOrderViewController.h */,
+				3BB86B73202D4C1300132467 /* CRConfirmOrderViewController.m */,
+			);
+			path = CRConfirmOrder;
+			sourceTree = "<group>";
+		};
+		A757492B455BB2E6523D234A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55244C92DC510229CB225A50 /* Pods-CRConfirmOrder.debug.xcconfig */,
+				5F1147544384D6C97561806A /* Pods-CRConfirmOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BB86B69202D4B8100132467 /* Build configuration list for PBXNativeTarget "CRConfirmOrder" */;
 			buildPhases = (
+				605F07B78FA548011F455262 /* [CP] Check Pods Manifest.lock */,
 				3BB86B39202D4B8100132467 /* Sources */,
 				3BB86B3A202D4B8100132467 /* Frameworks */,
 				3BB86B3B202D4B8100132467 /* Resources */,
+				3D3C09064632BDBAAA5B2111 /* [CP] Embed Pods Frameworks */,
+				EE792123DA8C973D828F7530 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +305,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D3C09064632BDBAAA5B2111 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605F07B78FA548011F455262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRConfirmOrder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE792123DA8C973D828F7530 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRConfirmOrder/Pods-CRConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BB86B39202D4B8100132467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB86B78202D4C1300132467 /* CRConfirmOrderServiceProvide.m in Sources */,
 				3BB86B45202D4B8100132467 /* ViewController.m in Sources */,
 				3BB86B50202D4B8100132467 /* main.m in Sources */,
 				3BB86B42202D4B8100132467 /* AppDelegate.m in Sources */,
+				3BB86B77202D4C1300132467 /* CRConfirmOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +526,7 @@
 		};
 		3BB86B6A202D4B8100132467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55244C92DC510229CB225A50 /* Pods-CRConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +541,7 @@
 		};
 		3BB86B6B202D4B8100132467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F1147544384D6C97561806A /* Pods-CRConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
