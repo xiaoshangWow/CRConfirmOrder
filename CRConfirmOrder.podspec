@@ -25,12 +25,11 @@ s.source_files = "CRConfirmOrder/CRConfirmOrder/**/*.{h,m}"
 
 s.framework = "UIKit"
 
-s.dependency "CRConfirmOrderServiceProtocol", '~> 0.0.1'
 pod spec lint CRConfirmOrderServiceProtocol.podspec --source='https:github.com/xiaoshangWow/CRRepositories.git,https://github.com/CocoaPods/Specs.git'
+s.dependency "CRConfirmOrderServiceProtocol", '~> 0.0.1'
 
-s.dependency "CRProtocolManager", '~> 0.0.1'
+
 pod spec lint CRProtocolManager.podspec --source='https:github.com/xiaoshangWow/CRRepositories.git,https://github.com/CocoaPods/Specs.git'
-
-source 'https://github.com/xiaoshangWow/CRRepositories.git'
+s.dependency "CRProtocolManager", '~> 0.0.1'
 
 end
