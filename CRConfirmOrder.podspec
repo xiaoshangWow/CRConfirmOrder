@@ -25,8 +25,8 @@ s.source_files = "CRConfirmOrder/CRConfirmOrder/**/*.{h,m}"
 
 s.framework = "UIKit"
 
-s.dependency "CRConfirmOrderServiceProtocol", '~> 0.0.1'
+s.dependency "CRConfirmOrderServiceProtocol"
 
-s.dependency "CRProtocolManager", '~> 0.0.1'
+s.dependency "CRProtocolManager"
 
 end
