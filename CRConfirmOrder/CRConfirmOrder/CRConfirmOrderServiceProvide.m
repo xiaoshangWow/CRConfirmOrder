@@ -13,7 +13,6 @@
 #import "CRConfirmOrderViewController.h"
 @interface CRConfirmOrderServiceProvide() <CRConfirmOrderServiceProtocol>
 
-
 @end
 
 @implementation CRConfirmOrderServiceProvide
